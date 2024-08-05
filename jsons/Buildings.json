@@ -270,6 +270,17 @@
 		"isNationalWonder": true
 	},
 	{
+		"name": "House of Wisdom",
+		"replaces": "Library",
+		"uniqueTo": "Palestine",
+		"cost": 250,
+		"culture": 50,
+		"science": 100,
+		"happiness": 25,
+		"maintenance": 5,
+		"requiredTech": "Writing"
+	},
+	{
 		"name": "Geothermal Plant",
 		"replaces": "Hydro Plant",
 		"uniqueTo": "Iceland",
