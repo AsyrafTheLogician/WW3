@@ -265,7 +265,7 @@
 		"faith": 100,
 		"happiness": 25,
 		"food": 25,
-		"uniques": ["Requires a [Temple] in all cities", "[+200]% Favored religion spread [in all cities]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"uniques": ["[+200]% Favored religion spread [in all cities]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
