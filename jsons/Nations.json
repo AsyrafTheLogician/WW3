@@ -592,7 +592,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "From the River to the Sea",
-		"uniques": ["Gain [10] [Happiness] and [100] [Faith] <when [Military] units won battle>", "Gain [50] [Faith] <upon discovering a Natural Wonder,, "[+50]% Production when constructing [Science], [Culture] and [Faith] buildings [in all cities]", "All newly-trained units [in all cities] receive the [Shock III] and [Cover II] promotion", "[Faith] cost of purchasing items in cities [-90]%", "[-90]% maintenance on road & railroads",],
+		"uniques": ["Gain [10] [Happiness] and [100] [Faith] <when [Military] units won battle>", "All newly-trained units [in all cities] receive the [Shock III] and [Cover II] promotion"],
 		"cities": ["Jerusalem","Gaza","Khan Younis","el-Khalil","Nablus","Rafah","Deir el-Balah","Beit Lahia","Tulkarm","Ma`ale Adummim","Bethlehem","Surif","Ramallah"]
 	},
 {
