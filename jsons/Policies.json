@@ -134,46 +134,46 @@
 			}
 		]
 	},{
-		"name": "Piety",
-		"era": "Ancient era",
+		"name": "Islamization",
+		"era": "Classical era",
 		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", "[+100]% Production when constructing [Temple] buildings [in all cities]", "Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
-				"name": "Organized Religion",
-				"uniques": ["[+1 Faith] from every [Shrine]","[+1 Faith] from every [Temple]"],
+				"name": "Organized Religion/Servant of Allah",
+				"uniques": ["[+5 Faith] from every [Shrine]","[+5 Faith] from every [Temple]"],
 				"row": 1,
 				"column": 2
 			},
 			{
-				"name": "Mandate Of Heaven",
-				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+				"name": "The Creator",
+				"uniques": ["[Faith] cost of purchasing items in cities [-50]%"],
 				"row": 1,
 				"column": 5
 			},
 			{
-				"name": "Theocracy",
-				"uniques": ["[+25]% [Gold] from every [Temple]","[+3 Gold] from every [Holy site]"],
-				"requires": ["Organized Religion"],
+				"name": "Oneness",
+				"uniques": ["[+50]% [Gold] from every [Temple]","[+15 Gold] from every [Holy site]"],
+				"requires": ["Servant of Allah"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Reformation",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]", "Empire enters golden age"],
-				"requires": ["Organized Religion"],
+				"uniques": ["[+75]% [Culture] and [+25 Science] [in all cities]", "Empire enters golden age"],
+				"requires": ["Servant of Allah"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "Free Religion",
+				"name": "The Two Lights",
 				"uniques": ["[-10]% Culture cost of adopting new Policies"],
-				"requires": ["Mandate Of Heaven", "Reformation"],
+				"requires": ["Vicegerency", "Reformation"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "Piety Complete",
-				"uniques": ["Free [Great Prophet] appears", "[+3 Culture] from every [Holy site]"]
+				"name": "Islamization Complete",
+				"uniques": ["Free [Great Prophet] appears", "[+25 Culture] from every [Holy site]"]
 			}
 		]
 	},
@@ -317,62 +317,33 @@
 		]
 	},
 	{
-		"name": "Islamization",
-		"era": "Classical era",
-		"uniques": ["[+100 Faith] [in capital]","[+25 Science, +50 Culture, +10 Happiness] [in all cities]", "[-75]% Culture cost of natural border growth [in all cities]"],
-		"policies": [
-			{
-				"name": "Vicegerency",
-				"uniques": ["[+15 Food, +15 Production, +15 Science, +15 Gold,] [in all cities]"],
-				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Servant of Allah",
-				"uniques": ["Gain a free [Mosque] and [+50 Faith] [in all cities]"],
-				"row": 1,
-				"column": 3
-			},
-			{
-				"name": "First Revelation",
-				"uniques":["[+15 Science] in all your cities"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Islamization Complete",
-				"uniques": ["[+45]% growth [in all cities]"]
-			}
-		]
-	},
-	{
-		"name": "Rationalism",
+		"name": "Wisdom",
 		"era": "Renaissance era",
-		"uniques": ["[+10]% [Science] <while the empire is happy>", "Unlocks building the Porcelain Tower"],
+		"uniques": ["[+50]% [Science] <while the empire is happy>", "Unlocks building the House of Wisdom"],
 		"policies": [
 			{
-				"name": "Secularism",
-				"uniques": ["[+2 Science] from every specialist [in all cities]"],
+				"name": "Wasatiyyah",
+				"uniques": ["[+10 Science] from every specialist [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
 			{
-				"name": "Humanism",
-				"uniques": ["[Great Scientist] is earned [25]% faster"],
+				"name": "Insaniyyah",
+				"uniques": ["[Great Scientist] is earned [75]% faster"],
 				"row": 1,
 				"column": 5
 			},
 						{
-				"name": "Sovereignty",
-				"uniques": ["[+1 Gold] from all [Science] buildings"],
-				"requires": ["Secularism"],
+				"name": "Tamkin",
+				"uniques": ["[+20 Gold] from all [Science] buildings"],
+				"requires": ["Wasatiyyah"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "Free Thought",
-				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
-				"requires": ["Humanism"],
+				"name": "Science of Kalam",
+				"uniques": ["[+5 Science] from every [Library]", "[+25]% [Science] from every [University]"],
+				"requires": ["Insaniyyah"],
 				"row": 2,
 				"column": 5
 			},
@@ -384,8 +355,8 @@
 				"column": 1
 			},
 			{
-				"name": "Rationalism Complete",
-				"uniques": ["[1] Free Technologies",
+				"name": "Wisdom Complete",
+				"uniques": ["[3] Free Technologies",
 					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
@@ -480,46 +451,46 @@
 		]
 	},
 	{
-    "name": "Order",
+    "name": "Ustaziat al-Alam",
     "era": "Industrial era",
-	"uniques": ["[+2 Happiness] from every [Monument]", "Unlocks building the Kremlin", "Only available <before adopting [Autocracy]>", "Only available <before adopting [Freedom]>"],
+	"uniques": ["[+10 Happiness] from every [Monument]", "Only available <before adopting [Islamization]>", "Only available <before adopting [Wisdom]>"],
     "policies": [
         {
             "name": "Young Pioneers",
-			"uniques": ["[+1 Happiness] from every [Workshop]","[+1 Happiness] from every [Factory]","[+1 Happiness] from every [Nuclear Plant]","[+1 Happiness] from every [Hydro Plant]","[+1 Happiness] from every [Solar Plant]"],
+			"uniques": ["[+5 Happiness] from every [Workshop]","[+5 Happiness] from every [Factory]","[+1 Happiness] from every [Nuclear Plant]","[+5 Happiness] from every [Hydro Plant]","[+1 Happiness] from every [Solar Plant]"],
             "row": 1,
             "column": 2
         },
 		{
-			"name": "Patriotic War",
-			"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+			"name": "Jihad",
+			"uniques": ["[+50]% Strength <for [All] units> <when fighting in all tiles>"],
 			"row": 1,
 			"column": 4
 		},
 				{
-			"name": "Workers' Faculties",
+			"name": "Innovaters' Faculties",
 			"uniques": ["[+25]% [Science] from every [Factory]", "[+100]% Production when constructing [Factory] buildings [in all cities]"],
-			"requires": ["Patriotic War", "Young Pioneers"],
+			"requires": ["Jihad", "Young Pioneers"],
 			"row": 2,
 			"column": 3
 		},
         {
             "name": "Academy of Sciences",
-            "requires": ["Workers' Faculties"],
-			"uniques": ["[+1 Happiness] from every [Observatory]","[+1 Happiness] from every [Public School]","[+1 Happiness] from every [Research Lab]"],
+            "requires": ["Innovaters' Faculties"],
+			"uniques": ["[+5 Happiness] from every [Observatory]","[+5 Happiness] from every [Public School]","[+5 Happiness] from every [Research Lab]"],
             "row": 3,
             "column": 2
         },
         {
             "name": "Five-Year Plan",
-            "requires": ["Workers' Faculties"],
-			"uniques": ["[+2 Production] [in all cities]", "[+1 Production] from every [Mine]", "[+1 Production] from every [Quarry]"],
+            "requires": ["Innovaters' Faculties"],
+			"uniques": ["[+10 Production] [in all cities]", "[+10 Production] from every [Mine]", "[+10 Production] from every [Quarry]"],
             "row": 3,
             "column": 4
         },
         {
-            "name": "Order Complete",
-			"uniques": ["[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]"]
+            "name": "Ustaziat al-Alam Complete",
+			"uniques": ["[+10 Food, +10 Production, +10 Science, +25 Gold, +25 Culture] [in all cities]"]
         }
     ]
 }
