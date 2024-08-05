@@ -342,15 +342,15 @@
 			},
 			{
 				"name": "Science of Kalam",
-				"uniques": ["[+5 Science] from every [Library]", "[+25]% [Science] from every [University]"],
+				"uniques": ["[+10 Science] from every [Library]", "[+25]% [Science] from every [University]"],
 				"requires": ["Insaniyyah"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Scientific Revolution",
-				"uniques": ["Science gained from research agreements [+50]%"],
-				"requires": ["Sovereignty"],
+				"uniques": ["Science gained from research agreements [+50]%", "[-90]% maintenance on road & railroads"],
+				"requires": ["Tamkin"],
 				"row": 3,
 				"column": 1
 			},
