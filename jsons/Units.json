@@ -387,6 +387,7 @@
 		"cost": 100,
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["[+200]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Fighter] and [Helicopter] units>" "[+100]% Strength <when fighting in [River] tiles>", "[+50]% Strength <when fighting in [Ocean] and [Lakes] tiles>", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Infantry",
 		"promotions": ["Great Generals I"],
 		"attackSound": "shot"
 	},
