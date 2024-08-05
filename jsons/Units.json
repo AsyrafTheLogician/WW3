@@ -386,7 +386,7 @@
 		"strength": 90,
 		"cost": 100,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["[+150]% Strength <vs [Armored], [Fighter] and [Helicopter] units>", "[+100]% Strength <when fighting in [River], [Ocean] and [Lakes] tiles>"],
+		"uniques": ["[+150]% Strength <vs [Armored], [Fighter] and [Helicopter] units>"],
 		"upgradesTo": "Infantry",
 		"promotions": ["Great Generals I"],
 		"attackSound": "shot"
